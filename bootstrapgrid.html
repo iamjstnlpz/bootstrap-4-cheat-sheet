@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1 class="display-3 text-uppercase text-center col-xs-1">bootstrap 101</h1>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand text-white" href="#">THE NAVBAR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#TheGridSystem">Responsive Grid</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#GridAlignment">Grid Alignment</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ResImages">Responsive Images</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#Forms">Forms</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#Icons">Icons</a>
+                 </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CONTENTS  -->
+    <div class="border border-primary rounded-lg p-3 m-3  shadow-lg bg-white rounded">
+    <div class="container" id="TheGridSystem">
+        <h1 class="display-1 text-center text-primary">The Grid System</h1>
+        <div class="row">
+            <div class="col-2 bg-success">I AM 2 UNITS</div>
+            <div class="col-8 bg-danger">I AM 8 UNITS</div>
+            <div class="col-2 bg-success">I AM 2 UNITS</div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-success">I AM 3 UNITS</div>
+            <div class="col-6 bg-info">I AM 6 UNITS</div>
+            <div class="col-3 bg-primary">I AM 2 UNITS</div>
+        </div>
+        <div class="row">
+            <div class="col bg-success">I AM AUTOSIZED</div>
+            <div class="col-5 bg-info">I AM AUTOSIZED</div>
+            <div class="col bg-warning">I AM AUTOSIZED</div>
+        </div>
+        <div class="row">
+            <div class="col bg-primary">I AM AUTOSIZED</div>
+            <div class="col bg-secondary">I AM AUTOSIZED</div>
+            <div class="col-8 bg-warning">I AM AUTOSIZED</div>
+        </div>
+    </div>
+    </div>
+        <br>
+        <br>
+    
+    <div class="border border-primary rounded-lg  p-3 m-3  shadow bg-white rounded">
+        <h2 class="display-3 text-center" id="GridAlignment">Responsive Grid</h2>
+        <div class="row">
+            <div class="col-md-6 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim error ex officia fugit laborum, ab a reprehenderit assumenda deserunt, nisi asperiores accusamus et ipsam voluptatum quaerat! Quisquam, quod doloribus.
+            </div>
+            <div class="col-md-6 bg-success">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem enim error ex officia fugit laborum, ab a reprehenderit assumenda deserunt, nisi asperiores accusamus et ipsam voluptatum quaerat! Quisquam, quod doloribus.
+            </div>
+        </div>
+    </div>
+    <div class="border border-primary rounded-lg  p-3 m-3  shadow bg-white rounded">
+        <h2 class="display-3 text-center">Grid Alignment</h2>
+        <div class="border border-success rounded-lg p-3 m-3 shadow bg-white rounded">
+        <h3 class="display-6 text-center">Align Content</h3>
+        <div class="row align-items-center">
+            <div class="col-md-3 bg-warning align-self-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem perferendis pariatur voluptatum placeat, asperiores temporibus accusantium vero deleniti repudiandae non suscipit, delectus, ratione nihil quos porro repellendus obcaecati expedita!
+            </div>
+            <div class="col-md-3 bg-danger">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem perferendis pariatur voluptatum placeat, asperiores temporibus accusantium vero deleniti repudiandae non suscipit, delectus, ratione nihil quos porro repellendus obcaecati expedita!
+            </div>
+            <div class="col-md-3 bg-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem perferendis pariatur voluptatum placeat, asperiores temporibus accusantium vero deleniti repudiandae non suscipit, delectus, ratione nihil quos porro repellendus obcaecati expedita! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis nihil, iure natus veniam fuga magnam aperiam nobis soluta repellendus perferendis, qui aspernatur. Error quis necessitatibus architecto vel nobis modi facere.
+            </div>
+            <div class="col-md-3 bg-success align-self-start">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem perferendis pariatur voluptatum placeat, asperiores temporibus accusantium vero deleniti repudiandae non suscipit, delectus, ratione nihil quos porro repellendus obcaecati expedita!
+            </div>
+        </div>
+        </div>
+        <div class="border border-success rounded-lg p-3 m-3  shadow bg-white rounded">
+        <h3 class="display-6 text-center">Justify Content</h3>
+            <div class="row border justify-content-center justify-content-lg-start justify-content-xl-between">
+                <div class="col-md-4 bg-primary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cum commodi enim incidunt deserunt repudiandae, totam asperiores! Nostrum provident nam, vitae deserunt facere rerum ad aspernatur possimus, asperiores maxime quos?
+                </div>
+                <div class="col-md-3 bg-info align-self-start">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia voluptatem perferendis pariatur voluptatum placeat, asperiores temporibus accusantium vero deleniti repudiandae non suscipit, delectus, ratione nihil quos porro repellendus obcaecati expedita!
+                </div>
+            </div>
+        </div>
+        </div>
+        <br>
+        <div class="container">
+        <div class="border rounded-lg border-primary m-3 p-3 shadow bg-white rounded">
+        <h2 class="display-3 text-center" id="ResImages">Responsive Images</h2>
+        <div class="row">
+            <div class="col-xs-3 col-md-6 col-lg-4">
+                <img class="img-fluid img-thumbnail " src="https://images.unsplash.com/photo-1522120657009-060ca01afcd6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8b3dsfGVufDB8MnwwfA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="owl-1">
+            </div>
+            <div class="col-xs-3 col-md-6 col-lg-4">
+                <img class="img-fluid img-thumbnail " src="https://images.unsplash.com/photo-1529570286810-e149c4bae142?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fG93bHxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="owl-2">
+            </div>
+            <div class="col-xs-3 col-md-6 col-lg-4">
+              <img class="img-fluid img-thumbnail " src="https://images.unsplash.com/photo-1606041135751-d47fce5bab00?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjN8fG93bHxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="owl-2">
+            </div>
+        </div>
+        </div>
+        </div>
+        <br>
+        <div class="border rounded-lg border-primary p-3 m-3  shadow bg-white rounded">
+        <h2 class="display-3 text-center"  id="Icons">Form Section</h2>
+        <div class="container border">
+            <h3 class="display-5 text-center" id="Forms">Form</h1>
+            <form action="#nowhere">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="password">
+                    </div>
+                </div>
+                <div class="form-group">
+                     <label for="address">Address</label>
+                     <input type="text" class="form-control" id="address" placeholder="923 Chicken Ranch St.">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="city">City</label>
+                        <input type="text" class="form-control" id="city" placeholder="City">
+                   </div>
+                    <div class="form-group col-md-3 col-6">
+                        <label for="state">State</label>
+                        <select type="state" class="form-control" id="state" placeholder="state">
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3 col-6">
+                        <label for="zip-code">Zip Code</label>
+                        <input type="text" class="form-control" id="zip-code" placeholder="">
+                    </div>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="agree-tos">
+                    <label class="custom-control-label" for="agree-tos">Sign Me Up!!</label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Register</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+        <br>
+        <div class="border rounded-lg border-primary p-4 m-3  shadow bg-white rounded">
+        <h2 class="display-3 text-center"  id="Icons">Icons</h2>
+        <div class="container text-center flex-column">
+            <h1 class="display-6 text-primary">Icons <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bar-chart" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5h-2v12h2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+              </svg></h1>
+            <button class="btn btn-sm btn-danger col-2"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-backspace-reverse" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M9.08 2H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h7.08a1 1 0 0 0 .76-.35L14.682 8 9.839 2.35A1 1 0 0 0 9.08 2zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h7.08a2 2 0 0 0 1.519-.698l4.843-5.651a1 1 0 0 0 0-1.302L10.6 1.7A2 2 0 0 0 9.08 1H2zm7.854 4.146a.5.5 0 0 1 0 .708L7.707 8l2.147 2.146a.5.5 0 0 1-.708.708L7 8.707l-2.146 2.147a.5.5 0 0 1-.708-.708L6.293 8 4.146 5.854a.5.5 0 1 1 .708-.708L7 7.293l2.146-2.147a.5.5 0 0 1 .708 0z"/>
+              </svg>  Delete</button>
+            </div>
+        </div>
+        <br>
+               <!-- INPUT GROUP -->
+            <div class="border rounded-lg border-primary p-4 m-3  shadow bg-white rounded">
+            <h2 class="display-3 text-center" id="">Input Groups</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="input-group input-group-lg col">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="basic-addon1"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                          </svg></span>
+                        </div> 
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <br>
+        <h2 class="display-3 text-center"  id="">Borders</h2>
+        <div class="container">
+            
+        </div>
+    </div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
